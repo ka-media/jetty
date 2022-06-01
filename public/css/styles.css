@@ -7,6 +7,7 @@
 	--bg-color-1: #fff;
 	--bg-color-2: #9ff3f2;
 	--bg-color-3: #dddf;
+	--bg-color-4: #ccc;
 	--box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
 }
 
@@ -241,7 +242,16 @@ section {
 	align-items: center;
 	flex-wrap: wrap;
 	gap: 1.7rem;
-	padding-top: 7rem;
+	padding-top: .5rem;
+}
+
+.title-container .title {
+	display: block;
+	position: relative;
+	color: var(--text-color2);
+	text-align: center;
+	padding-top: 5rem;
+	font-size: 3rem;
 }
 
 .home .image {
@@ -258,7 +268,7 @@ section {
 
 .home .content h3 {
 	color: var(--text-color2);
-	font-size: 3rem;
+	font-size: 2.5rem;
 }
 
 .home .content p {
@@ -266,6 +276,14 @@ section {
 	font-size: 1.7rem;
 	line-height: 1.7;
 	padding: 1rem 0;
+}
+
+.form-container .heading,
+.about .heading,
+.contact .heading,
+.blogs .heading {
+	font-size: 2rem;
+	margin-bottom: 1rem;
 }
 
 .form-container form {
@@ -301,6 +319,14 @@ section {
 
 .form-container form .btn {
 	flex: 1 1 23rem;
+	text-align: justify;
+}
+
+.about .about-detail {
+	color: var(--text-color2);
+	font-size: 1.7rem;
+	line-height: 1.7;
+	padding: 1rem 0;
 }
 
 .contact form {
@@ -434,14 +460,20 @@ section {
 	color: var(--text-color3);
 }
 
-.footer .credit {
+.footer2 {
+	margin-top: 0;
+	background: var(--bg-color-4);
+}
+
+.footer2 .credit {
 	font-size: 1.5rem;
 	text-align: center;
 	border-top: 1rem solid var(--text-color3);
 	padding: 1rem;
 	padding-top: 2rem;
 	margin-top: 2rem;
-	color: var(--text-color3);
+	color: var(--text-color2);
+	background: ;
 }
 
 
